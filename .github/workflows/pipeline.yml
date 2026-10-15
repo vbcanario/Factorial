@@ -1,0 +1,12 @@
+name: Pipeline de Mario Bermudez Jaimez
+
+on:
+  push:
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensaje
+        run: echo "Pipeline de prueba de Mario Bermudez Jaimez"
